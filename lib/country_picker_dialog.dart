@@ -114,7 +114,7 @@ class CountryPickerDialog extends StatefulWidget {
     this.searchCursorColor,
     this.searchEmptyView,
     this.searchFilter,
-    this.backgroundColor,
+    this.backgroundColor = Colors.white,
   }) : super(key: key);
 
   @override
